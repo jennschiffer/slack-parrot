@@ -16,7 +16,7 @@ const dispatcher = require('httpdispatcher'),
       oauthd = require('./oauthd.js'),
       add_to_slack = 'https://slack.com/oauth/authorize?scope=bot,chat:write:bot&client_id=' + process.env.SLACK_CLIENT_ID;
 
-// html for the app's landing page
+// html for the app's landing page - CUSTOMIZE THIS IF YOU WANT!
 let html = `<div>
     <h1>Slack Parrot</h1>
     <h2>This bot just repeats everything any person in a channel says.</h2>
