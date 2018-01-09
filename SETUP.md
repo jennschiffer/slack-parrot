@@ -21,7 +21,7 @@ Under "subscribe to bot events" choose the "message.im" event so you can private
 Navigate back to the 'Oauth & Permissions' page. There should be a `bot` scope under 'Permission Scopes' but you'll also need to add `chat:write:bot` so we can have Slack message back the previous message. Click "Save Changes"!
 
 ## Testing Your App
-Go to your app landing page (you can click "Show" at the top of Glitch to find it, and this project's landing page is [solid-tugboat.glitch.me](https://slack-parrot.glitch.me). 
+Go to your app landing page (you can click "Show" at the top of Glitch to find it) and install it! Your app should then be up and running and able to respond to actions you make in Slack. 
 
 Your app should now be up and running and able to respond to actions you make in Slack. 
 
